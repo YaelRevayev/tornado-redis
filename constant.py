@@ -1,1 +1,1 @@
-SRC_DIR_NAME = 'dogs'
+SRC_DIR_NAME = './dogs'
