@@ -1,1 +1,1 @@
-SRC_DIR_NAME = '../dogs'
+SRC_DIR_NAME = '/home/yael-vm2/dogs'
