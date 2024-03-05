@@ -1,6 +1,5 @@
 import os
 import constant
-from save import save_key_value_pair
 
 
 def read_files_from_dir(basepath = constant.SRC_DIR_NAME):

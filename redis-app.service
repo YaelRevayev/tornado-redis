@@ -1,0 +1,12 @@
+[Unit]
+Description=A script for reading dogs images and writing them to redis
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/yael-vm2/tornado-redis
+ExecStart=/usr/bin/python3 /home/yael-vm2/tornado-redis/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
